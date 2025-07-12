@@ -1,0 +1,3 @@
+1 - Eu entendi que não basta só copiar código da internet, eu preciso saber o que estou fazendo e por que estou fazendo. Como futura pessoa desenvolvedora, sou eu quem vai ter que dar as respostas, entender a lógica e fazer escolhas conscientes. A teoria pode parecer chata, mas é ela que me dá base pra criar soluções de verdade.
+
+2 - Alternativa c). A programação orientada a objetos (POO) é a mais adequada para esse cenário porque permite modelar as entidades do sistema, como livros, autores, usuários, empréstimos e devoluções, como objetos com atributos e comportamentos próprios.
