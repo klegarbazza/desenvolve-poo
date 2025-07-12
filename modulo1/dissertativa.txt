@@ -1,3 +1,39 @@
 1 - Eu entendi que não basta só copiar código da internet, eu preciso saber o que estou fazendo e por que estou fazendo. Como futura pessoa desenvolvedora, sou eu quem vai ter que dar as respostas, entender a lógica e fazer escolhas conscientes. A teoria pode parecer chata, mas é ela que me dá base pra criar soluções de verdade.
 
 2 - Alternativa c). A programação orientada a objetos (POO) é a mais adequada para esse cenário porque permite modelar as entidades do sistema, como livros, autores, usuários, empréstimos e devoluções, como objetos com atributos e comportamentos próprios.
+
+3 -
+
+Classes do diagrama e tipos de propriedades:
+
+Pessoa:
+   nome: string
+   lista de livros: Livro (array de objetos do tipo Livro)
+
+Empréstimo:
+   data de retirada: Date
+   data de devolução: Date
+   livro: Livro
+   usuário: Usuario
+
+Usuario:
+   idade: int
+   histórico de empréstimos: Emprestimo (array de objetos do tipo Emprestimo)
+
+Livro:
+   título: string
+   autor: Autor
+   gênero: string
+
+Autor:
+   nacionalidade: string
+
+Relações
+
+1 Autor é 1 pessoa
+1 usuário é 1 pessoa
+1 Livro possui 1 Autor principal.
+Cada Autor pode escrever N Livros.
+Cada Livro pode ser emprestado N vezes mas não pode estar em mais de 1 empréstimo por vez
+Cada Usuário pode realizar N Empréstimos por vez.
+Cada Empréstimo envolve pelo menos 1 Livro e apenas 1 Usuário.
